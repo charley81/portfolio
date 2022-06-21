@@ -1,7 +1,4 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/browser-apis/
- */
+// this is to use the context api
+import { wrapRootElement as wrap } from './root-wrapper'
 
-// You can delete this file if you're not using it
+export const wrapRootElement = wrap
