@@ -67,6 +67,7 @@ const globalStyles = css`
 
   a {
     text-decoration: none;
+    color: var(--color-dark);
   }
 
   img {
