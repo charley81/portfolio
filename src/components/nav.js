@@ -156,6 +156,7 @@ const Nav = ({ toggleSidebar }) => {
                 key={link.id}
                 className="social-link"
                 target="_blank"
+                rel="noreferrer"
               >
                 {link.icon}
               </a>

@@ -5,11 +5,13 @@ import { css } from '@emotion/react'
 const Projects = () => {
   return (
     <div
+      id="projects"
       css={css`
         padding: 0 1rem;
         max-width: var(--max-width);
         margin: 0 auto;
-        x h2 {
+
+        h2 {
           text-transform: capitalize;
         }
 
@@ -18,17 +20,40 @@ const Projects = () => {
           color: var(--color-grey-2);
         }
 
-        #project {
+        .project {
           padding: 1rem 0;
           border-bottom: 1px solid var(--color-grey-1);
+        }
+
+        @media screen and (min-width: 768px) {
+          p {
+            font-size: 16px;
+          }
+        }
+
+        @media screen and (min-width: 1000px) {
+          .project a {
+            display: flex;
+            align-items: center;
+
+            h2 {
+              margin-right: 2rem;
+            }
+
+            p {
+              max-width: 200px;
+            }
+          }
         }
       `}
     >
       {projects.map(project => {
         return (
-          <div key={project.id} id="project">
-            <h2>{project.title}</h2>
-            <p className="small-text">{project.subtitle}</p>
+          <div className="project" key={project.id}>
+            <a href={project.link}>
+              <h2>{project.title}</h2>
+              <p className="small-text">{project.subtitle}</p>
+            </a>
           </div>
         )
       })}
