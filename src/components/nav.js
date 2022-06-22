@@ -1,8 +1,8 @@
 import React from 'react'
-import links from '../constants/links'
+import { navLinks, socialLinks } from '../constants/links'
 import { css } from '@emotion/react'
 import { CgMenuGridO } from 'react-icons/cg'
-import { AnchorLink } from 'gatsby-plugin-anchor-links'
+import { Link } from 'gatsby'
 
 const Nav = ({ toggleSidebar }) => {
   return (
@@ -60,11 +60,63 @@ const Nav = ({ toggleSidebar }) => {
 
         .section-links {
           display: none;
+
+          a {
+            position: relative;
+
+            &::after {
+              position: absolute;
+              content: '';
+              width: 100%;
+              height: 3px;
+              top: 100%;
+              left: 0;
+              background: var(--color-primary);
+              transition: transform 0.5s;
+              transform: scaleX(0);
+              transform-origin: right;
+            }
+
+            &:hover::after {
+              transform: scaleX(1);
+              transform-origin: left;
+            }
+          }
+        }
+
+        @media screen and (min-width: 1000px) {
+          button {
+            display: none;
+          }
+
+          .section-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .nav-center {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            align-items: center;
+          }
+
+          .social-link {
+            font-size: 1.5rem;
+            transition: var(--transition);
+
+            &:nth-child(2) {
+              margin-left: 1rem;
+            }
+
+            &:hover {
+              color: var(--color-primary);
+            }
+          }
         }
       `}
     >
       <div className="nav-center">
-        {/* header */}
         <div className="nav-header">
           <p className="small-text">CH</p>
           <button aria-label="toggle">
@@ -75,13 +127,21 @@ const Nav = ({ toggleSidebar }) => {
             />
           </button>
         </div>
-        {/* links */}
         <ul className="section-links">
-          {links.map(link => {
+          {navLinks.map(link => {
             return (
-              <AnchorLink key={link.id} to={`/${link.section}`}>
+              <Link key={link.id} to={`/${link.section}`}>
                 {link.text}
-              </AnchorLink>
+              </Link>
+            )
+          })}
+        </ul>
+        <ul className="social-links">
+          {socialLinks.map(link => {
+            return (
+              <Link to={link.url} className="social-link">
+                {link.icon}
+              </Link>
             )
           })}
         </ul>
