@@ -1,6 +1,6 @@
 import React from 'react'
 import { CgClose } from 'react-icons/cg'
-import links from '../constants/links'
+import { navLinks, socialLinks } from '../constants/links'
 import { css } from '@emotion/react'
 
 const Sidebar = ({ openNav, toggleSidebar }) => {
@@ -13,13 +13,7 @@ const Sidebar = ({ openNav, toggleSidebar }) => {
 
       {/* side container */}
       <ul className={openNav ? 'sidebar-links' : null}>
-        {links.map(link => {
-          return (
-            <li key={link.id}>
-              <a href={link.url}>{link.text}</a>
-            </li>
-          )
-        })}
+        <li>temp</li>
       </ul>
     </aside>
   )

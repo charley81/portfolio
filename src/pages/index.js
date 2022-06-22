@@ -1,12 +1,12 @@
 import * as React from 'react'
-import { Layout, Hero } from '../components/'
-import { Seo } from '../components'
+import { Layout, Hero, Seo, Projects } from '../components/'
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div>
       <Hero />
+      <Projects />
     </div>
   </Layout>
 )

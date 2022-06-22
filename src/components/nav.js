@@ -117,7 +117,7 @@ const Nav = ({ toggleSidebar }) => {
             font-size: 1.5rem;
             transition: var(--transition);
 
-            &:nth-child(2) {
+            &:nth-of-type(2) {
               margin-left: 1rem;
             }
 
@@ -151,9 +151,14 @@ const Nav = ({ toggleSidebar }) => {
         <ul className="social-links">
           {socialLinks.map(link => {
             return (
-              <Link to={link.url} className="social-link">
+              <a
+                href={link.url}
+                key={link.id}
+                className="social-link"
+                target="_blank"
+              >
                 {link.icon}
-              </Link>
+              </a>
             )
           })}
         </ul>
