@@ -25,11 +25,8 @@ const globalStyles = css`
 
   /* Base Styles */
   * {
-    ::before,
-    ::after {
-      margin: 0;
-      padding: 0;
-    }
+    margin: 0;
+    padding: 0;
   }
 
   body {

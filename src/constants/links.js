@@ -2,7 +2,7 @@ const navlinks = [
   {
     id: 1,
     page: 'about',
-    url: '/about',
+    section: 'about',
     text: 'About & Contact',
   },
 ]
