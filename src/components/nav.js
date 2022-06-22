@@ -8,13 +8,10 @@ const Nav = ({ toggleSidebar }) => {
   return (
     <nav
       css={css`
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
-        height: 5rem;
         display: flex;
         align-items: center;
+        padding: 2rem 0;
         z-index: 1;
 
         .nav-center {
@@ -84,6 +81,10 @@ const Nav = ({ toggleSidebar }) => {
           }
         }
 
+        .social-links {
+          display: none;
+        }
+
         @media screen and (min-width: 1000px) {
           button {
             display: none;
@@ -93,6 +94,17 @@ const Nav = ({ toggleSidebar }) => {
             display: flex;
             justify-content: center;
             align-items: center;
+          }
+
+          .social-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+              display: flex;
+              align-items: center;
+            }
           }
 
           .nav-center {
