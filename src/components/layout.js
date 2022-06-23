@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import globalStyles from '../../styles/global-styles'
 import { Global, css } from '@emotion/react'
-import { Nav, Sidebar } from './index'
+import { Nav, Sidebar, Footer } from './index'
 
 const Layout = ({ children }) => {
   const [openNav, setOpenNav] = useState(false)
@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
       <Nav toggleSidebar={toggleSidebar} />
       {/* <Sidebar openNav={openNav} toggleSidebar={toggleSidebar} /> */}
       <main>{children}</main>
+      <Footer />
     </>
   )
 }

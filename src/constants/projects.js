@@ -14,7 +14,7 @@ const projects = [
   {
     id: 3,
     title: 're-imagine search',
-    subtitle: 'Search Engine SASS, UX/UI Design, 2022. 05.',
+    subtitle: 'Search Engine SAAS, UX/UI Design, 2022. 05.',
     link: 'https://google.com',
   },
   {
