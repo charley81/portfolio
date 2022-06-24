@@ -9,7 +9,7 @@ const Projects = () => {
       css={css`
         padding: 0 1rem;
         max-width: var(--max-width);
-        margin: 0 auto;
+        margin: 8rem auto;
 
         h2 {
           text-transform: capitalize;
@@ -38,6 +38,11 @@ const Projects = () => {
 
             h2 {
               margin-right: 2rem;
+              transition: var(--transition);
+
+              &:hover {
+                color: var(--color-primary);
+              }
             }
 
             p {
