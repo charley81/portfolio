@@ -130,7 +130,9 @@ const Nav = ({ toggleSidebar }) => {
     >
       <div className="nav-center">
         <div className="nav-header">
-          <p className="small-text">CH</p>
+          <Link to="/">
+            <p className="small-text">CH</p>
+          </Link>
           <button aria-label="toggle">
             <CgMenuGridO
               type="button"
