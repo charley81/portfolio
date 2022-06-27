@@ -4,7 +4,7 @@ import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa'
 const navLinks = [
   {
     id: 1,
-    page: 'about',
+    url: '/about',
     section: 'about',
     text: 'About & Contact',
   },

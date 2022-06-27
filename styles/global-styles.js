@@ -89,6 +89,24 @@ const globalStyles = css`
   }
 
   /* Global Classes */
+  .sidebar {
+    background: var(--color-light);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    transition: var(--transition);
+    transform: translateX(-100%);
+  }
+  .show-sidebar {
+    opacity: 1;
+    transform: translateX(0);
+  }
 
   /* Media Quries */
   @media screen and (min-width: 1200px) {

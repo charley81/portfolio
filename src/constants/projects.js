@@ -27,7 +27,7 @@ const projects = [
     id: 5,
     title: 'grab a brew',
     subtitle: 'Beer Brewery | Visual Design & Development',
-    link: 'luckyguybrewing.netlify.app/',
+    link: 'https://luckyguybrewing.netlify.app/',
   },
   {
     id: 6,

@@ -55,7 +55,7 @@ const Projects = () => {
       {projects.map(project => {
         return (
           <div className="project" key={project.id}>
-            <a href={project.link}>
+            <a href={project.link} target="_blank" rel="noreferrer">
               <h2>{project.title}</h2>
               <p className="small-text">{project.subtitle}</p>
             </a>

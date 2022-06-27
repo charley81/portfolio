@@ -1,7 +1,5 @@
 import React from 'react'
 import { css } from '@emotion/react'
-import { FiChevronDown } from 'react-icons/fi'
-import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const Hero = () => {
   return (

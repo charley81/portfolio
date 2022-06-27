@@ -1,6 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import { navLinks, socialLinks } from '../constants/links'
+import { navLinks } from '../constants/links'
 import { css } from '@emotion/react'
 
 const Footer = () => {
@@ -12,22 +12,21 @@ const Footer = () => {
         align-items: center;
         justify-content: center;
 
-        .social-links {
-          height: 5rem;
-          display: flex;
-          align-items: center;
+        ul li a {
+          transition: var(--transition);
 
-          li {
-            font-size: 1.25rem;
+          &:hover {
+            color: var(--color-primary);
           }
         }
       `}
     >
-      <ul className="all-links">
+      <ul>
         {navLinks.map(link => {
+          const { url, text } = link
           return (
             <li key={link.id}>
-              <Link to={link.page}>{link.text}</Link>
+              <Link to={url}>{text}</Link>
             </li>
           )
         })}

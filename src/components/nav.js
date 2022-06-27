@@ -85,7 +85,7 @@ const Nav = ({ toggleSidebar }) => {
           display: none;
         }
 
-        @media screen and (min-width: 1000px) {
+        @media screen and (min-width: 768px) {
           button {
             display: none;
           }
@@ -143,9 +143,10 @@ const Nav = ({ toggleSidebar }) => {
         </div>
         <ul className="section-links">
           {navLinks.map(link => {
+            const { id, url, text } = link
             return (
-              <Link key={link.id} to={`/${link.section}`}>
-                {link.text}
+              <Link key={id} to={url}>
+                {text}
               </Link>
             )
           })}
