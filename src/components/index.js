@@ -5,5 +5,6 @@ import Seo from './seo'
 import Hero from '../hero'
 import Projects from './projects'
 import Footer from './footer'
+import Button from './button'
 
-export { Nav, Sidebar, Layout, Seo, Hero, Projects, Footer }
+export { Nav, Sidebar, Layout, Seo, Hero, Projects, Footer, Button }
