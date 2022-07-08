@@ -27,6 +27,14 @@ const AboutPage = () => {
             background: var(--color-dark);
             border-radius: var(--border-radius);
           }
+
+          @media screen and (min-width: 1000px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            max-width: 1000px;
+            margin: auto;
+          }
         `}
       >
         <div className="info">
@@ -67,6 +75,7 @@ const AboutPage = () => {
                 href="mailto:chrisharley81@gmail.com"
                 className="email"
                 target="_blank"
+                rel="noreferrer"
               >
                 chrisharley81@gmail.com{' '}
               </a>
@@ -76,7 +85,7 @@ const AboutPage = () => {
         </div>
         <div className="image-section">
           <StaticImage
-            src="../images/about-img.png"
+            src="../images/about.png"
             alt="Chris Harley Bio Image"
             layout="fullWidth"
             placeholder="tracedSVG"
