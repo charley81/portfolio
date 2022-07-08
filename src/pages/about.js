@@ -1,5 +1,5 @@
 import React from 'react'
-import { Layout, Button } from '../components'
+import { Layout } from '../components'
 import { css } from '@emotion/react'
 import { StaticImage } from 'gatsby-plugin-image'
 
@@ -21,6 +21,16 @@ const AboutPage = () => {
 
           .email {
             color: var(--color-primary);
+          }
+
+          .resume-link {
+            display: block;
+            padding: 1rem 2rem;
+            background: var(--color-dark);
+            color: var(--color-light);
+            text-align: center;
+            font-size: 1rem;
+            font-style: inherit;
           }
 
           .image {
@@ -81,7 +91,9 @@ const AboutPage = () => {
               </a>
             </p>
           </div>
-          <Button text="resume" />
+          <a href="/resume.pdf" className="resume-link">
+            Resume
+          </a>
         </div>
         <div className="image-section">
           <StaticImage
