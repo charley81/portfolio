@@ -5,6 +5,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div>
+      <Seo title="Home Page" description="Chris Harley Front End Developer" />
       <Hero />
       <Projects />
     </div>

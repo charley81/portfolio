@@ -1,11 +1,15 @@
 import React from 'react'
-import { Layout } from '../components'
+import { Layout, Seo } from '../components'
 import { css } from '@emotion/react'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const AboutPage = () => {
   return (
     <Layout>
+      <Seo
+        tite="About Page"
+        description="About Chris Harley Front End Developer based in Charlotte NC"
+      />
       <section
         css={css`
           padding: 1rem;
