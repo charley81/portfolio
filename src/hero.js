@@ -39,8 +39,7 @@ const Hero = () => {
         <h1>Solving problems with design thinking and passion</h1>
         <p className="description">
           I am Chris, a UX/UI designer, developer, audio engineer & producer. I
-          enjoy desinging user interfaces and bringing them to life with code.
-          I'm a font end developer who recently graduated a UX Design bootcamp.
+          enjoy designing user interfaces and bringing them to life with code.
         </p>
       </div>
     </div>

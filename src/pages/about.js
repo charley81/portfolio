@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <Layout>
       <Seo
-        tite="About Page"
+        title="About Page"
         description="About Chris Harley Front End Developer based in Charlotte NC"
       />
       <section
@@ -54,13 +54,9 @@ const AboutPage = () => {
         <div className="info">
           <div className="paragraphs">
             <p>
-              I’m currently trying to become the best front-end developer that I
-              can be by working daily algorithmic challenges and building
-              applications with React. I’ve recently graduated from a UX
-              bootcamp in June 2022 and a full stack coding bootcamp back in
-              2000. With the combination of both I’m able to conduct the full
-              product life cycle from identifying the correct problem to solve
-              to deploying the final product.
+              I’m currently building full stack web applications with
+              React/NextJS. I recently graduated from Per Scholas software
+              engineering program where we learnt the MERN stack.
             </p>
             <br />
             <p>
