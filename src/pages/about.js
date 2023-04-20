@@ -54,33 +54,28 @@ const AboutPage = () => {
         <div className="info">
           <div className="paragraphs">
             <p>
-              I’m currently building full stack web applications with
-              React/NextJS. I recently graduated from Per Scholas software
-              engineering program where we learnt the MERN stack.
+              I'm Chris Harley, a UX Engineer with expertise in frontend web
+              development, the Jamstack, Gatsby, and headless CMS's. I
+              specialize in designing and implementing user-centric interfaces
+              that are visually appealing, fast, accessible, and inclusive. With
+              a strong understanding of the design process, I collaborate
+              closely with UX/UI designers and other stakeholders to create
+              seamless user experiences.
             </p>
             <br />
             <p>
-              My passion is designing and develop beautiful interfaces. I enjoy
-              solving user problems with pixel perfect designs and then bringing
-              those designs to life with modern web technologies like React and
-              React frameworks like Gatsby and Next.{' '}
+              As a UX Engineer, I bring a unique blend of frontend web
+              development skills, expertise in modern technologies, and a deep
+              understanding of the design process. I am proficient in using
+              HTML5, CSS3, JavaScript, and React, and have hands-on experience
+              with Gatsby and integrating headless CMS's. I am passionate about
+              creating exceptional user experiences and solving complex problems
+              through innovative and user-centric solutions.
             </p>
             <br />
             <p>
-              I was in the U.S. Army for ten years and jumped out of planes for
-              eight of those years. I loved every minute of it but unfortunately
-              that takes a toll on your body and I decided to get out and finish
-              my degree in music business from Berklee College of Music. After a
-              couple of years of working manufacturing and running a recording
-              studio out of my basement I decided to look for a different career
-              that I would love, would be able to express my creativity, and
-              would provide a great life for my family and I, which led me to
-              software engineering.{' '}
-            </p>
-            <br />
-            <p>
-              I’m currently looking to join a team as a front-end developer /
-              visual designer. Feel free to contact me, id love to chat:{' '}
+              I’m currently looking to join an amazing team as a UX Engineer.
+              Feel free to contact me, id love to chat:{' '}
               <a
                 href="mailto:chrisharley81@gmail.com"
                 className="email"

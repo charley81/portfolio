@@ -36,10 +36,10 @@ const Hero = () => {
       `}
     >
       <div className="wrap">
-        <h1>Solving problems with design thinking and passion</h1>
+        <h1>Solving problems with design thinking and code</h1>
         <p className="description">
-          I am Chris, a UX/UI designer, developer, audio engineer & producer. I
-          enjoy designing user interfaces and bringing them to life with code.
+          Hi I'm Chris, a UX Engineer. I enjoy the design thinking process,
+          creating high fidelity designs, and bringing them to life with code.
         </p>
       </div>
     </div>
