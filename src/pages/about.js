@@ -86,9 +86,6 @@ const AboutPage = () => {
               </a>
             </p>
           </div>
-          <a href="/resume.pdf" target="_blank" className="resume-link">
-            Resume
-          </a>
         </div>
         <div className="image-section">
           <StaticImage
