@@ -55,22 +55,22 @@ const AboutPage = () => {
           <div className="paragraphs">
             <p>
               I'm Chris Harley, a UX Engineer with expertise in frontend web
-              development, the Jamstack, Gatsby, and headless CMS's. I
-              specialize in designing and implementing user-centric interfaces
-              that are visually appealing, fast, accessible, and inclusive. With
-              a strong understanding of the design process, I collaborate
-              closely with UX/UI designers and other stakeholders to create
-              seamless user experiences.
+              development and UI/UX design. I specialize in designing and
+              implementing user-centric interfaces that are visually appealing,
+              fast, accessible, and inclusive. With a strong understanding of
+              the design process, I'm able to design and develop a digital
+              product to create seamless user experiences.
             </p>
             <br />
             <p>
               As a UX Engineer, I bring a unique blend of frontend web
               development skills, expertise in modern technologies, and a deep
               understanding of the design process. I am proficient in using
-              HTML5, CSS3, JavaScript, and React, and have hands-on experience
-              with Gatsby and integrating headless CMS's. I am passionate about
-              creating exceptional user experiences and solving complex problems
-              through innovative and user-centric solutions.
+              HTML5, CSS3, and JavaScript as well as frontend frameworks react
+              and angular, and have hands-on experience integrating headless
+              CMS's. I am passionate about creating exceptional user experiences
+              and solving complex problems through innovative and user-centric
+              solutions.
             </p>
             <br />
             <p>
