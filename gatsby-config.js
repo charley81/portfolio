@@ -3,7 +3,7 @@ module.exports = {
     title: `Chris Harley | Portfolio`,
     description: `Portfolio of Front End Developer/Visual designer Chris Harley`,
     author: 'Chris Harley',
-    siteUrl: `https://chrisharley.design/`,
+    siteUrl: `https://chrisharley.io/`,
   },
   plugins: [
     `gatsby-plugin-emotion`,
