@@ -82,7 +82,7 @@ const AboutPage = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                chrisharley81@gmail.com{' '}
+                chrisharley81@gmail.com
               </a>
             </p>
           </div>
