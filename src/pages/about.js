@@ -54,27 +54,23 @@ const AboutPage = () => {
         <div className="info">
           <div className="paragraphs">
             <p>
-              I'm Chris Harley, a UX Engineer with expertise in frontend web
-              development and UI/UX design. I specialize in designing and
-              implementing user-centric interfaces that are visually appealing,
-              fast, accessible, and inclusive. With a strong understanding of
-              the design process, I'm able to design and develop a digital
-              product to create seamless user experiences.
+              Hi, I'm Chris Harley. I'm a frontend developer and love working in
+              JavaScript, specifically using TypeScript, React, and headless
+              content management systems. I have experience in UX design and
+              enjoy solving problems for users through human-centered design,
+              and bringing those concepts to life with code.
             </p>
             <br />
             <p>
-              As a UX Engineer, I bring a unique blend of frontend web
-              development skills, expertise in modern technologies, and a deep
-              understanding of the design process. I am proficient in using
-              HTML5, CSS3, and JavaScript as well as frontend frameworks react
-              and angular, and have hands-on experience integrating headless
-              CMS's. I am passionate about creating exceptional user experiences
-              and solving complex problems through innovative and user-centric
-              solutions.
+              Recently, I've been delving into NextJS, exploring its latest
+              features and patterns, as well as familiarizing myself with
+              Tailwind CSS and reusable UI component libraries like Shadcn. I'm
+              passionate about building modern websites that are not only
+              blazingly fast and secure but also deliver a superb user
+              experience while strictly adhering to all accessibility standards.
             </p>
             <br />
             <p>
-              I’m currently looking to join an amazing team as a UX Engineer.
               Feel free to contact me, id love to chat:{' '}
               <a
                 href="mailto:chrisharley81@gmail.com"

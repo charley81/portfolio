@@ -38,8 +38,9 @@ const Hero = () => {
       <div className="wrap">
         <h1>Solving problems with design thinking and code</h1>
         <p className="description">
-          Hi I'm Chris, a UX Engineer. I enjoy the design thinking process,
-          creating high fidelity designs, and bringing them to life with code.
+          Hi I'm Chris, a Frontend Developer/UX Engineer. I enjoy the design
+          thinking process,creating high fidelity designs, and bringing them to
+          life with code.
         </p>
       </div>
     </div>
