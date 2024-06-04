@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    title: 'TDTR',
+    title: 'HIT',
     subtitle: 'FIGMA | React | Express | Node | MongoDB',
     link: 'https://tdtr.onrender.com/',
   },
